@@ -1,0 +1,27 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.RecyleView" parent="Theme.Material3.DayNight">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.RecyleView" parent="Base.Theme.RecyleView" />-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.RecyleView" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="actionBarStyle">@style/ToolbarStyle</item>
+    </style>
+
+    <style name="Theme.RecyleView" parent="Theme.Material3.DayNight" />
+
+
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:titleTextColor">@color/colorOnPrimary</item>
+        <item name="android:subtitleTextColor">@color/colorOnPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Stars Rating</string>
+    <style name="TextStyle">bold</style>
+</resources>
